@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { navigate } from 'gatsby'
 import './SearchBox.css'
-import { rhythm, scale } from '../utils/typography'
 
 let algoliasearch, autocomplete, client, index
 
