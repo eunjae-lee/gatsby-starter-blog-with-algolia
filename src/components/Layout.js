@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import SearchBox from './SearchBox'
 
 class Layout extends React.Component {
   render() {
@@ -60,10 +61,11 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+        <SearchBox />
         {header}
         {children}
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built witddh
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

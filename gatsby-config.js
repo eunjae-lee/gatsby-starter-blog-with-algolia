@@ -74,5 +74,9 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: require(`./gatsby-plugin-algolia-config.js`),
+    },
   ],
 }
