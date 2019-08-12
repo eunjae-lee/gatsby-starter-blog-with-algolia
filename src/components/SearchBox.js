@@ -40,7 +40,7 @@ class SearchBox extends Component {
       dataset,
       context
     ) {
-      navigate(suggestion.url)
+      navigate(suggestion.path)
     })
   }
   render() {
